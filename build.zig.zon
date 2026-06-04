@@ -1,0 +1,10 @@
+.{
+    .name = .zsx,
+    .version = "0.0.0",
+    .fingerprint = 0xfcebe7afa3e7d14e,
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "lang",
+    },
+}

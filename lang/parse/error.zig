@@ -1,0 +1,15 @@
+pub const ParseError = error{
+    ExpectedTemplate,
+    ExpectedIdentifier,
+    ExpectedToken,
+    ExpectedAttributeValue,
+    ExpectedForBinding,
+    MismatchedClosingTag,
+    UnterminatedString,
+    UnterminatedChar,
+    UnterminatedComment,
+    UnterminatedDelimited,
+    UnexpectedEnd,
+    UnexpectedToken,
+    OutOfMemory,
+};
